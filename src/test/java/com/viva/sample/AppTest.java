@@ -9,4 +9,8 @@ public class AppTest{
 	public void doThing() {
 		assertTrue(2+3==5);
 	}
+	@Test
+	public void doNotThing() {
+		assertTrue(2+3==6);
+	}
 }
